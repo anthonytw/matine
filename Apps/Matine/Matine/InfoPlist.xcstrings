@@ -1,0 +1,22 @@
+{
+  "sourceLanguage": "es",
+  "strings": {
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matiné looks for iPhones and iPads at home that want to sign in, so you can approve them from here."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matiné busca iPhones y iPads de tu casa que quieren entrar, para que los apruebes desde aquí."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- The app's own group FIRST: it stays the default for tokens and PINs.
+	     The second is shared with the Top Shelf extension, for its snapshot only. -->
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)io.github.anthonytw.matine</string>
+		<string>$(AppIdentifierPrefix)io.github.anthonytw.matine.shared</string>
+	</array>
+	<!-- Required by App Store Connect for a tvOS app using iCloud; also lets CloudKit tell
+	     the app (silently) that keywords changed. -->
+	<key>aps-environment</key>
+	<string>development</string>
+	<!-- Search keywords made on a phone, read from the owner's private iCloud database. -->
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>iCloud.io.github.anthonytw.matine</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+</dict>
+</plist>

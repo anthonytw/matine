@@ -1,0 +1,38 @@
+{
+  "sourceLanguage": "es",
+  "strings": {
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matiné se conecta con el servidor de vídeo si está en tu red local, y anuncia en ella el código con el que entras para que tu Apple TV lo apruebe."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matiné connects to your video server when it is on your local network, and announces your sign-in code there so your Apple TV can approve it."
+          }
+        }
+      }
+    },
+    "CFBundleDisplayName": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matiné"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matiné"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

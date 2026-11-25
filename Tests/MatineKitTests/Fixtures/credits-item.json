@@ -1,0 +1,12 @@
+{"Id":"film-1","Name":"El faro azul","Type":"Movie","OfficialRating":"ES-12","CommunityRating":8.46,
+ "Taglines":["Una luz entre la niebla"],"Studios":[{"Name":"Estudio Brisa","Id":"st1"},{"Name":"Casa Marea","Id":"st2"}],
+ "People":[
+  {"Id":"p1","Name":"Alma Ventura","Role":"Marta Quiroga","Type":"Actor","PrimaryImageTag":"ph1"},
+  {"Id":"p2","Name":"Bruno Salcedo","Role":"","Type":"Actor"},
+  {"Id":"p3","Name":"Celia Montoya","Type":"Director","PrimaryImageTag":"ph3"},
+  {"Id":"p4","Name":"Dario Lerma","Type":"Writer"},
+  {"Id":"p5","Name":"Elena Rastro","Role":"La vecina","Type":"GuestStar"},
+  {"Id":"p6","Name":"Fabio Nube","Type":"Producer"},
+  {"Name":"sin id","Type":"Actor"},
+  {"Id":"p7","Name":"Gema Olmo","Type":"Cosa Nueva"}
+ ]}

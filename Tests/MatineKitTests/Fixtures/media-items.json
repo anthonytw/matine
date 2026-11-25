@@ -1,0 +1,11 @@
+{"Items":[
+ {"Id":"ep-1","Name":"S01E01 - Piloto","Type":"Episode","SeriesName":"Serie Uno","ParentIndexNumber":1,"IndexNumber":1,
+  "MediaSources":[{"Id":"src-ep-1","Container":"mp4","Path":"/media/tv/Serie Uno/e1.mp4","Size":1000,"Protocol":"File","VideoType":"VideoFile",
+   "MediaStreams":[{"Index":0,"Type":"Video","Codec":"h264","CodecTag":"avc1","Profile":"Main","BitDepth":8,"PixelFormat":"yuv420p"},
+                   {"Index":1,"Type":"Audio","Codec":"aac","Channels":2},
+                   {"Index":2,"Type":"Subtitle","Codec":"subrip","IsExternal":true}]}]},
+ {"Id":"movie-1","Name":"Película","Type":"Movie",
+  "MediaSources":[{"Id":"src-a","Container":"mkv","Size":2000,"Protocol":"File","VideoType":"VideoFile",
+    "MediaStreams":[{"Index":0,"Type":"Video","Codec":"h264","Profile":"High"},{"Index":1,"Type":"Audio","Codec":"dts","Channels":6}]},
+   {"Id":"src-b","Container":"mov,mp4,m4a","Size":3000,"Protocol":"File","VideoType":"VideoFile","MediaStreams":null}]}
+]}

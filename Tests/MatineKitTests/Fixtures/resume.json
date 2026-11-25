@@ -1,0 +1,6 @@
+{"Items":[
+ {"Id":"ep-1","Name":"El primer día","Type":"Episode","SeriesId":"series-1","SeriesName":"Una serie","ParentIndexNumber":1,"IndexNumber":2,
+  "RunTimeTicks":13200000000,"ImageTags":{},"SeriesPrimaryImageTag":"stag","ParentBackdropItemId":"series-1","ParentBackdropImageTags":["btag"],
+  "UserData":{"PlayedPercentage":41.5,"PlaybackPositionTicks":5478000000,"Played":false,"IsFavorite":false,"PlayCount":0,"Key":"k","ItemId":"ep-1"},
+  "SomeFieldWeDoNotUse":{"Nested":[1,2,3]}}
+],"TotalRecordCount":1,"StartIndex":0}

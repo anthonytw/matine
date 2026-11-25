@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Audio keeps playing in picture in picture and with the screen locked. -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<!-- Search keywords are made while charging (KeywordsModel). -->
+		<string>processing</string>
+		<!-- The household sync is woken by iCloud pushes (approvals from other devices). -->
+		<string>remote-notification</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>io.github.anthonytw.matine.keywords</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<!-- The server resolves to an address on the home network. Translated in InfoPlist.xcstrings. -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Matiné se conecta con el servidor de vídeo si está en tu red local, y anuncia en ella el código con el que entras para que tu Apple TV lo apruebe.</string>
+	<!-- A code shown while signing in is announced to the Apple TV on the home network. -->
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_matine-join._tcp</string>
+	</array>
+	<!-- Opening a keyword share link (a share of the Keywords zone) opens the app (KeywordShareViews). -->
+	<key>CKSharingSupported</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<!-- The server is whatever address its owner types: most home servers are plain http (the sign-in screens
+	     warn). Matiné never talks to any other server, so arbitrary loads only ever reach that one. Known
+	     residual: AVPlayer follows a redirect the server itself sends, even https to http; only the server can cause it. -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

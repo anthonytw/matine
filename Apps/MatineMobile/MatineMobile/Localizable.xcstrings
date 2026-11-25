@@ -1,0 +1,1706 @@
+{
+  "sourceLanguage": "es",
+  "strings": {
+    "%@ · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@"
+          }
+        }
+      }
+    },
+    "%@, con PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, with PIN"
+          }
+        }
+      }
+    },
+    "%lld de 4": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of 4"
+          }
+        }
+      }
+    },
+    "%lld temporadas": {
+      "localizations": {
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld temporada"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld temporadas"
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld season"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld seasons"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Abre Matiné en la tele para mandarle vídeos. Si la tele está en el perfil de otra persona, solo la ves con una cuenta de administrador.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Matiné on the TV to send it videos. If the TV is on someone else's profile, you only see it with an administrator account."
+          }
+        }
+      }
+    },
+    "Abre la ficha": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens the details"
+          }
+        }
+      }
+    },
+    "Activa Apple Intelligence en Ajustes, o descarga español e inglés en Ajustes › Apps › Traducir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turn on Apple Intelligence in Settings, or download Spanish and English in Settings › Apps › Translate."
+          }
+        }
+      }
+    },
+    "Apple Intelligence todavía se está descargando. Se seguirá cuando termine.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Intelligence is still downloading. Keywords continue when it's done."
+          }
+        }
+      }
+    },
+    "Aprobado. El otro dispositivo entrará en unos segundos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approved. The other device will sign in in a few seconds."
+          }
+        }
+      }
+    },
+    "Aprobar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve"
+          }
+        }
+      }
+    },
+    "Aprobar otro dispositivo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve another device"
+          }
+        }
+      }
+    },
+    "Apruébalo en otro dispositivo con Matiné o en la web de Jellyfin.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve it on another device with Matiné or on the Jellyfin website."
+          }
+        }
+      }
+    },
+    "Añadido": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date added"
+          }
+        }
+      }
+    },
+    "Añadir perfil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add profile"
+          }
+        }
+      }
+    },
+    "Bibliotecas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libraries"
+          }
+        }
+      }
+    },
+    "Borrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear"
+          }
+        }
+      }
+    },
+    "Busca películas, series y episodios, en español o en inglés.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search movies, shows and episodes, in Spanish or English."
+          }
+        }
+      }
+    },
+    "Buscar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "Búsqueda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "Búsquedas recientes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent searches"
+          }
+        }
+      }
+    },
+    "Cambiar PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change PIN"
+          }
+        }
+      }
+    },
+    "Cambiar de perfil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch profile"
+          }
+        }
+      }
+    },
+    "Cancelar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "Cargando…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading…"
+          }
+        }
+      }
+    },
+    "Cerrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "Cerrar sesión": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign out"
+          }
+        }
+      }
+    },
+    "Con PIN, este perfil no se abre sin él.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With a PIN, this profile won't open without it."
+          }
+        }
+      }
+    },
+    "Con perfiles infantiles, hace falta al menos un adulto con PIN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With kid profiles, at least one adult needs a PIN."
+          }
+        }
+      }
+    },
+    "Continuar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        }
+      }
+    },
+    "Continuar %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue %@"
+          }
+        }
+      }
+    },
+    "Contraseña": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password"
+          }
+        }
+      }
+    },
+    "Cualquiera puede abrir este perfil: ponle un PIN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anyone can open this profile: give it a PIN."
+          }
+        }
+      }
+    },
+    "Código de 6 cifras": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "6-digit code"
+          }
+        }
+      }
+    },
+    "Demasiados intentos. Prueba de nuevo dentro de %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Too many tries. Try again in %@."
+          }
+        }
+      }
+    },
+    "Descarga películas y episodios para verlos sin conexión.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download films and episodes to watch them without a connection."
+          }
+        }
+      }
+    },
+    "Descargado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloaded"
+          }
+        }
+      }
+    },
+    "Descargando": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading"
+          }
+        }
+      }
+    },
+    "Descargar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download"
+          }
+        }
+      }
+    },
+    "Descargar con datos móviles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download over cellular data"
+          }
+        }
+      }
+    },
+    "Descargar temporada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download season"
+          }
+        }
+      }
+    },
+    "Descargas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads"
+          }
+        }
+      }
+    },
+    "Desde el principio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From the start"
+          }
+        }
+      }
+    },
+    "Detener en la tele": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop on TV"
+          }
+        }
+      }
+    },
+    "Déjalo vacío si la cuenta no tiene contraseña.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave it empty if the account has no password."
+          }
+        }
+      }
+    },
+    "El código ha caducado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The code has expired."
+          }
+        }
+      }
+    },
+    "Elige un PIN de 4 cifras": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a 4-digit PIN"
+          }
+        }
+      }
+    },
+    "Eliminar descarga": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete download"
+          }
+        }
+      }
+    },
+    "Eliminar descargas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete downloads"
+          }
+        }
+      }
+    },
+    "Eliminar descargas de la temporada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this season's downloads"
+          }
+        }
+      }
+    },
+    "Eliminar todas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete all"
+          }
+        }
+      }
+    },
+    "Eliminar todas las descargas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete all downloads"
+          }
+        }
+      }
+    },
+    "En curso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In progress"
+          }
+        }
+      }
+    },
+    "English": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "English"
+          }
+        }
+      }
+    },
+    "Entrar con un código": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in with a code"
+          }
+        }
+      }
+    },
+    "Episodios": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Episodes"
+          }
+        }
+      }
+    },
+    "Ese código lo aprobó otro usuario. Pide otro y apruébalo con el perfil correcto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Another user approved that code. Get another one and approve it with the right profile."
+          }
+        }
+      }
+    },
+    "Ese código no existe o ha caducado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That code doesn't exist or has expired."
+          }
+        }
+      }
+    },
+    "Español": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Español"
+          }
+        }
+      }
+    },
+    "Esta biblioteca está vacía.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This library is empty."
+          }
+        }
+      }
+    },
+    "Este servidor no admite el acceso con código.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This server doesn't allow signing in with a code."
+          }
+        }
+      }
+    },
+    "Este teléfono no puede usar Apple Intelligence. Descarga español e inglés en Ajustes › Apps › Traducir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This phone can't use Apple Intelligence. Download Spanish and English in Settings › Apps › Translate."
+          }
+        }
+      }
+    },
+    "Fijados": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinned"
+          }
+        }
+      }
+    },
+    "Fijar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pin"
+          }
+        }
+      }
+    },
+    "Hace falta conexión con el servidor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server has to be reachable."
+          }
+        }
+      }
+    },
+    "Hace falta el PIN de un adulto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A grown-up's PIN is needed."
+          }
+        }
+      }
+    },
+    "Haciendo palabras clave…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Making keywords…"
+          }
+        }
+      }
+    },
+    "Has entrado como %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You signed in as %@"
+          }
+        }
+      }
+    },
+    "Idioma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        }
+      }
+    },
+    "Infantil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kid"
+          }
+        }
+      }
+    },
+    "Iniciar sesión": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in"
+          }
+        }
+      }
+    },
+    "Inicio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        }
+      }
+    },
+    "La dirección del servidor debe empezar por https:// o http://.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server address must start with https:// or http://."
+          }
+        }
+      }
+    },
+    "Las descargas nuevas usan solo wifi, salvo que lo cambies aquí.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New downloads use Wi-Fi only, unless you change it here."
+          }
+        }
+      }
+    },
+    "Las descargas ocupan %@ en este dispositivo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads take up %@ on this device."
+          }
+        }
+      }
+    },
+    "Listo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "Matiné": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matiné"
+          }
+        }
+      }
+    },
+    "No coinciden. Prueba otra vez.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "They don't match. Try again."
+          }
+        }
+      }
+    },
+    "No hay bibliotecas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There are no libraries."
+          }
+        }
+      }
+    },
+    "No hay descargas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No downloads."
+          }
+        }
+      }
+    },
+    "No hay ninguna tele disponible.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No TV is available."
+          }
+        }
+      }
+    },
+    "No se ha podido actualizar el inicio.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't refresh Home."
+          }
+        }
+      }
+    },
+    "No se ha podido aprobar el código.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't approve the code."
+          }
+        }
+      }
+    },
+    "No se ha podido cambiar Fijados.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't change Pinned."
+          }
+        }
+      }
+    },
+    "No se ha podido comprobar el PIN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't check the PIN."
+          }
+        }
+      }
+    },
+    "No se ha podido descargar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The download could not be started."
+          }
+        }
+      }
+    },
+    "No se ha podido guardar el PIN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't save the PIN."
+          }
+        }
+      }
+    },
+    "No se ha podido iniciar sesión.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't sign in."
+          }
+        }
+      }
+    },
+    "No se ha podido mandar a la tele.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't send it to the TV."
+          }
+        }
+      }
+    },
+    "No se puede conectar con el servidor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't reach the server."
+          }
+        }
+      }
+    },
+    "No se puede reproducir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't play this."
+          }
+        }
+      }
+    },
+    "No soy yo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That isn't me"
+          }
+        }
+      }
+    },
+    "Novedades en %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New in %@"
+          }
+        }
+      }
+    },
+    "Ocultar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide"
+          }
+        }
+      }
+    },
+    "Ordenar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort"
+          }
+        }
+      }
+    },
+    "PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        }
+      }
+    },
+    "PIN de %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN for %@"
+          }
+        }
+      }
+    },
+    "PIN de un adulto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A grown-up's PIN"
+          }
+        }
+      }
+    },
+    "PIN incorrecto. Quedan %lld intentos.": {
+      "localizations": {
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "PIN incorrecto. Queda %lld intento."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "PIN incorrecto. Quedan %lld intentos."
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wrong PIN. %lld try left."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wrong PIN. %lld tries left."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Palabras clave: %lld de %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keywords: %lld of %lld"
+          }
+        }
+      }
+    },
+    "Para añadir un perfil hace falta el PIN de un adulto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adding a profile needs a grown-up's PIN."
+          }
+        }
+      }
+    },
+    "Para entrar en otro dispositivo sin escribir la contraseña: pon aquí el código que muestra.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To sign in on another device without typing the password: enter the code it shows."
+          }
+        }
+      }
+    },
+    "Pausar en la tele": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause on TV"
+          }
+        }
+      }
+    },
+    "Pedir otro código": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get another code"
+          }
+        }
+      }
+    },
+    "Películas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Movies"
+          }
+        }
+      }
+    },
+    "Perfil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      }
+    },
+    "Pon el código de 6 cifras que muestra el otro dispositivo. Entrará como %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the 6-digit code the other device shows. It will sign in as %@."
+          }
+        }
+      }
+    },
+    "Poner un PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set a PIN"
+          }
+        }
+      }
+    },
+    "Quitar PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove PIN"
+          }
+        }
+      }
+    },
+    "Quitar de Fijados": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unpin"
+          }
+        }
+      }
+    },
+    "Reanudar en la tele": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume on TV"
+          }
+        }
+      }
+    },
+    "Reintentar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "Reintentar la descarga": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try the download again"
+          }
+        }
+      }
+    },
+    "Relacionado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Related"
+          }
+        }
+      }
+    },
+    "Repite el PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repeat the PIN"
+          }
+        }
+      }
+    },
+    "Reproduciendo en %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Playing on %@"
+          }
+        }
+      }
+    },
+    "Reproducir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play"
+          }
+        }
+      }
+    },
+    "Reproducir %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play %@"
+          }
+        }
+      }
+    },
+    "Reproducir en la tele": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play on TV"
+          }
+        }
+      }
+    },
+    "Se hacen en este teléfono y llegan al Apple TV por iCloud. Enchufado y con la app abierta, la pantalla no se apaga hasta terminar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "They're made on this phone and reach the Apple TV through iCloud. Plugged in with the app open, the screen stays on until they're done."
+          }
+        }
+      }
+    },
+    "Seguir viendo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue watching"
+          }
+        }
+      }
+    },
+    "Series": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows"
+          }
+        }
+      }
+    },
+    "Servidor": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server"
+          }
+        }
+      }
+    },
+    "Si no eres tú, o no esperabas entrar ahora, cierra la sesión.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "If that isn't you, or you weren't expecting to sign in now, sign out."
+          }
+        }
+      }
+    },
+    "Sin cifrar: la contraseña y la sesión se envían sin protección. Úsala solo en la red de casa o usa una dirección https://.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not encrypted: your password and session are sent unprotected. Use it only on your home network, or use an https:// address."
+          }
+        }
+      }
+    },
+    "Sin cifrar: la sesión se envía sin protección. Úsala solo en la red de casa o usa una dirección https://.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not encrypted: your session is sent unprotected. Use it only on your home network, or use an https:// address."
+          }
+        }
+      }
+    },
+    "Sin conexión: se muestran las descargas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No connection: showing downloads."
+          }
+        }
+      }
+    },
+    "Temporada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Season"
+          }
+        }
+      }
+    },
+    "Tiene que quedar al menos un perfil de adulto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "At least one adult profile has to stay."
+          }
+        }
+      }
+    },
+    "Toca para cancelar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap to cancel"
+          }
+        }
+      }
+    },
+    "Toca para eliminar la descarga": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap to delete the download"
+          }
+        }
+      }
+    },
+    "Todavía no hay nada que ver.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There's nothing to watch yet."
+          }
+        }
+      }
+    },
+    "Tu código": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your code"
+          }
+        }
+      }
+    },
+    "Título": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
+          }
+        }
+      }
+    },
+    "Un adulto con PIN puede aprobar dispositivos para este perfil.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A grown-up with a PIN can approve devices for this profile."
+          }
+        }
+      }
+    },
+    "Un perfil de adulto necesita un PIN antes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An adult profile needs a PIN first."
+          }
+        }
+      }
+    },
+    "Usuario": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "User"
+          }
+        }
+      }
+    },
+    "Usuario o contraseña incorrectos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrong user or password."
+          }
+        }
+      }
+    },
+    "Vale": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Volver": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back"
+          }
+        }
+      }
+    },
+    "Vídeos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videos"
+          }
+        }
+      }
+    },
+    "empezado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "started"
+          }
+        }
+      }
+    },
+    "https://": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://"
+          }
+        }
+      }
+    },
+    "o": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "or"
+          }
+        }
+      }
+    },
+    "visto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "watched"
+          }
+        }
+      }
+    },
+    "¿Cerrar la sesión de %@ en este dispositivo?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign out %@ on this device?"
+          }
+        }
+      }
+    },
+    "¿Eliminar la descarga de %@?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete the download of %@?"
+          }
+        }
+      }
+    },
+    "¿Eliminar las descargas de esta temporada?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this season's downloads?"
+          }
+        }
+      }
+    },
+    "¿Eliminar todas las descargas de %@?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete all downloads of %@?"
+          }
+        }
+      }
+    },
+    "¿Quién mira?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Who's watching?"
+          }
+        }
+      }
+    },
+    "Último error: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last error: %@"
+          }
+        }
+      }
+    },
+    "%@ ha entrado como %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ signed in as %@"
+          }
+        }
+      }
+    },
+    "Quitar de todos los dispositivos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from all devices"
+          }
+        }
+      }
+    },
+    "¿Quitar a %@ de todos los dispositivos?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove %@ from all devices?"
+          }
+        }
+      }
+    },
+    "Los perfiles se comparten con tus otros dispositivos por iCloud. Cerrar sesión solo afecta a este; quitar borra el perfil en todos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles are shared with your other devices through iCloud. Signing out only affects this one; removing deletes the profile on all of them."
+          }
+        }
+      }
+    },
+    "Compartir con otra persona…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share with someone…"
+          }
+        }
+      }
+    },
+    "Gestionar lo compartido…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage sharing…"
+          }
+        }
+      }
+    },
+    "Invitados: %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "People invited: %lld"
+          }
+        }
+      }
+    },
+    "Recibes las palabras clave de otra persona.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You receive another person's keywords."
+          }
+        }
+      }
+    },
+    "No se pudo preparar el uso compartido. Comprueba que iCloud esté activo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't set up sharing. Check that iCloud is on."
+          }
+        }
+      }
+    },
+    "Comparte solo las palabras clave de búsqueda, no los perfiles ni lo que veis.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This shares only the search keywords, not profiles or what you watch."
+          }
+        }
+      }
+    },
+    "Ya recibes las palabras clave de la otra persona, y las tuyas le llegan a ella.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You now receive the other person's keywords, and yours reach them."
+          }
+        }
+      }
+    },
+    "No se pudo aceptar la invitación. Ábrela otra vez cuando haya conexión y iCloud esté activo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't accept the invitation. Open it again when you're online and iCloud is on."
+          }
+        }
+      }
+    },
+    "Se dejó de compartir. Conservas las palabras clave que ya habían llegado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sharing stopped. You keep the keywords that had already arrived."
+          }
+        }
+      }
+    },
+    "Esa cuenta no es la de este perfil.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That account is not this profile's."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,1886 @@
+{
+  "sourceLanguage": "es",
+  "strings": {
+    "%@ · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@"
+          }
+        }
+      }
+    },
+    "%@, como %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, as %@"
+          }
+        }
+      }
+    },
+    "%@, con PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, with PIN"
+          }
+        }
+      }
+    },
+    "%@, empezado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, started"
+          }
+        }
+      }
+    },
+    "%@, visto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, watched"
+          }
+        }
+      }
+    },
+    "%lld de %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "%lld títulos": {
+      "localizations": {
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld título"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld títulos"
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld title"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld titles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld títulos en tu biblioteca": {
+      "localizations": {
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld título en tu biblioteca"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld títulos en tu biblioteca"
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld title in your library"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld titles in your library"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Adulto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adult"
+          }
+        }
+      }
+    },
+    "Ahora no": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        }
+      }
+    },
+    "Al azar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Random picks"
+          }
+        }
+      }
+    },
+    "Animales": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Animals"
+          }
+        }
+      }
+    },
+    "Aprobado. El otro dispositivo entrará en unos segundos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approved. The other device will sign in within a few seconds."
+          }
+        }
+      }
+    },
+    "Aprobando…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approving…"
+          }
+        }
+      }
+    },
+    "Aprobar %@ como %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve %@ as %@"
+          }
+        }
+      }
+    },
+    "Aprobar otro dispositivo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve another device"
+          }
+        }
+      }
+    },
+    "Apruébalo solo si tienes ese dispositivo en la mano y muestra este mismo código. Si nadie está entrando ahora, elige «Ahora no».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve it only if you are holding that device and it shows this same code. If nobody is signing in right now, choose “Not now”."
+          }
+        }
+      }
+    },
+    "Apruébalo solo si tienes ese iPad en la mano y muestra este mismo código. Si nadie está entrando ahora, elige «Ahora no».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve it only if you are holding that iPad and it shows this same code. If nobody is signing in right now, choose “Not now”."
+          }
+        }
+      }
+    },
+    "Apruébalo solo si tienes ese iPhone en la mano y muestra este mismo código. Si nadie está entrando ahora, elige «Ahora no».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve it only if you are holding that iPhone and it shows this same code. If nobody is signing in right now, choose “Not now”."
+          }
+        }
+      }
+    },
+    "Avisar cuando un dispositivo quiera entrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alert me when a device wants to sign in"
+          }
+        }
+      }
+    },
+    "Azul": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blue"
+          }
+        }
+      }
+    },
+    "Añadir perfil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add profile"
+          }
+        }
+      }
+    },
+    "Bibliotecas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libraries"
+          }
+        }
+      }
+    },
+    "Borrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "Busca películas, series y episodios, en español o en inglés.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search movies, series and episodes, in Spanish or English."
+          }
+        }
+      }
+    },
+    "Buscar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "Búsquedas recientes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent searches"
+          }
+        }
+      }
+    },
+    "Cambiar a": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch to"
+          }
+        }
+      }
+    },
+    "Cambiar a %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch to %@"
+          }
+        }
+      }
+    },
+    "Cambiar a %@, con PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch to %@, with a PIN"
+          }
+        }
+      }
+    },
+    "Cambiar avatar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change avatar"
+          }
+        }
+      }
+    },
+    "Cambiar de perfil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch profile"
+          }
+        }
+      }
+    },
+    "Cambiar el PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change PIN"
+          }
+        }
+      }
+    },
+    "Cambiar nombre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rename"
+          }
+        }
+      }
+    },
+    "Cancelar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "Cargando…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading…"
+          }
+        }
+      }
+    },
+    "Cerrar sesión": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign out"
+          }
+        }
+      }
+    },
+    "Colibrí": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hummingbird"
+          }
+        }
+      }
+    },
+    "Color": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        }
+      }
+    },
+    "Con perfiles infantiles, al menos un perfil adulto necesita un PIN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With kids' profiles, at least one adult profile needs a PIN."
+          }
+        }
+      }
+    },
+    "Con un PIN en este perfil podrás poner nombres y crear perfiles infantiles.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With a PIN on this profile you can name profiles and make kids' profiles."
+          }
+        }
+      }
+    },
+    "Conejo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rabbit"
+          }
+        }
+      }
+    },
+    "Contraseña": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password"
+          }
+        }
+      }
+    },
+    "Código": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code"
+          }
+        }
+      }
+    },
+    "Código del otro dispositivo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code from the other device"
+          }
+        }
+      }
+    },
+    "Demasiados intentos. Prueba de nuevo dentro de %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Too many tries. Try again in %@."
+          }
+        }
+      }
+    },
+    "Desde el principio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From the beginning"
+          }
+        }
+      }
+    },
+    "Dirección: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Directed by: %@"
+          }
+        }
+      }
+    },
+    "Dispositivo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Device"
+          }
+        }
+      }
+    },
+    "Déjalo vacío si la cuenta no tiene contraseña.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave it empty if the account has no password."
+          }
+        }
+      }
+    },
+    "El iPhone, el iPad u otro aparato con Matiné muestra un código de 6 cifras en «Entrar con un código». Entrará como %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The iPhone, iPad or other device with Matiné shows a 6-digit code under “Sign in with a code”. It will sign in as %@."
+          }
+        }
+      }
+    },
+    "Elige el que tienes en la mano, o «Ahora no» si no esperas ninguno.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the one in your hand, or “Not now” if you aren't expecting any."
+          }
+        }
+      }
+    },
+    "En tu biblioteca": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In your library"
+          }
+        }
+      }
+    },
+    "Entrar como %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in as %@"
+          }
+        }
+      }
+    },
+    "Entrar como %@, con PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in as %@, with PIN"
+          }
+        }
+      }
+    },
+    "Episodios": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Episodes"
+          }
+        }
+      }
+    },
+    "Ese código no existe o ha caducado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That code doesn't exist or has expired."
+          }
+        }
+      }
+    },
+    "Esta biblioteca está vacía.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This library is empty."
+          }
+        }
+      }
+    },
+    "Este servidor no admite el acceso con código.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This server doesn't allow signing in with a code."
+          }
+        }
+      }
+    },
+    "Estrellas invitadas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guest stars"
+          }
+        }
+      }
+    },
+    "Fijados": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinned"
+          }
+        }
+      }
+    },
+    "Fijar en inicio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pin to home"
+          }
+        }
+      }
+    },
+    "Fucsia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pink"
+          }
+        }
+      }
+    },
+    "Gato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cat"
+          }
+        }
+      }
+    },
+    "Gestionar perfiles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage profiles"
+          }
+        }
+      }
+    },
+    "Guardar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "Guion: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Written by: %@"
+          }
+        }
+      }
+    },
+    "Hay perfiles infantiles y este perfil no tiene PIN: cualquiera puede entrar en él.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There are kids' profiles and this profile has no PIN: anyone can open it."
+          }
+        }
+      }
+    },
+    "Hay varios dispositivos pidiendo entrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Several devices are asking to sign in"
+          }
+        }
+      }
+    },
+    "Idioma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        }
+      }
+    },
+    "Infantil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kid"
+          }
+        }
+      }
+    },
+    "Iniciar sesión": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in"
+          }
+        }
+      }
+    },
+    "Iniciar sesión de nuevo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in again"
+          }
+        }
+      }
+    },
+    "Inicio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        }
+      }
+    },
+    "La dirección del servidor debe empezar por https:// o http://.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server address must start with https:// or http://."
+          }
+        }
+      }
+    },
+    "La sesión ha caducado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your session has expired."
+          }
+        }
+      }
+    },
+    "Lagartija": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lizard"
+          }
+        }
+      }
+    },
+    "Listo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "Los PIN no coinciden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The PINs don't match."
+          }
+        }
+      }
+    },
+    "Mariquita": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ladybug"
+          }
+        }
+      }
+    },
+    "Marrón": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brown"
+          }
+        }
+      }
+    },
+    "Morado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purple"
+          }
+        }
+      }
+    },
+    "Más recientes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Newest"
+          }
+        }
+      }
+    },
+    "Más robots": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More robots"
+          }
+        }
+      }
+    },
+    "Naranja": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orange"
+          }
+        }
+      }
+    },
+    "No hay nada con esta persona en tu biblioteca.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There is nothing with this person in your library."
+          }
+        }
+      }
+    },
+    "No se ha podido actualizar el inicio.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't refresh Home."
+          }
+        }
+      }
+    },
+    "No se ha podido aprobar el código.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't approve the code."
+          }
+        }
+      }
+    },
+    "No se ha podido cambiar Fijados.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't change Pinned."
+          }
+        }
+      }
+    },
+    "No se ha podido cargar el inicio.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't load the home screen."
+          }
+        }
+      }
+    },
+    "No se ha podido cargar la biblioteca.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't load the library."
+          }
+        }
+      }
+    },
+    "No se ha podido comprobar el PIN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't check the PIN."
+          }
+        }
+      }
+    },
+    "No se ha podido guardar el PIN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't save the PIN."
+          }
+        }
+      }
+    },
+    "No se ha podido guardar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't save."
+          }
+        }
+      }
+    },
+    "No se ha podido iniciar sesión.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't sign in."
+          }
+        }
+      }
+    },
+    "No se han podido cargar los episodios.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't load the episodes."
+          }
+        }
+      }
+    },
+    "No se puede conectar con el servidor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't reach the server."
+          }
+        }
+      }
+    },
+    "No se puede reproducir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't play this."
+          }
+        }
+      }
+    },
+    "Nombre en el selector": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name on the picker"
+          }
+        }
+      }
+    },
+    "Novedades en %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New in %@"
+          }
+        }
+      }
+    },
+    "Nuevo PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New PIN"
+          }
+        }
+      }
+    },
+    "Orden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort"
+          }
+        }
+      }
+    },
+    "Ordenar: Más recientes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort: Newest"
+          }
+        }
+      }
+    },
+    "Ordenar: Título": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort: Title"
+          }
+        }
+      }
+    },
+    "Osito": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teddy bear"
+          }
+        }
+      }
+    },
+    "Otros al azar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shuffle again"
+          }
+        }
+      }
+    },
+    "Otros dispositivos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other devices"
+          }
+        }
+      }
+    },
+    "PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        }
+      }
+    },
+    "PIN actual": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current PIN"
+          }
+        }
+      }
+    },
+    "PIN de %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN for %@"
+          }
+        }
+      }
+    },
+    "PIN de un adulto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A grown-up's PIN"
+          }
+        }
+      }
+    },
+    "PIN guardado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN saved."
+          }
+        }
+      }
+    },
+    "PIN incorrecto. Quedan %lld intentos.": {
+      "localizations": {
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "PIN incorrecto. Queda %lld intento."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "PIN incorrecto. Quedan %lld intentos."
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wrong PIN. %lld try left."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wrong PIN. %lld tries left."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "PIN quitado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN removed."
+          }
+        }
+      }
+    },
+    "Para entrar en Matiné en un iPhone o iPad sin escribir la contraseña.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To sign in to Matiné on an iPhone or iPad without typing the password."
+          }
+        }
+      }
+    },
+    "Para entrar en Matiné en un iPhone o iPad sin escribir la contraseña. Hace falta el PIN de un adulto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To sign in to Matiné on an iPhone or iPad without typing the password. A grown-up's PIN is needed."
+          }
+        }
+      }
+    },
+    "Para volver a entrar hará falta la contraseña, o un código aprobado por otro de tus dispositivos donde este perfil siga abierto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signing back in will need the password, or a code approved on another device where this profile is still signed in."
+          }
+        }
+      }
+    },
+    "Películas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Movies"
+          }
+        }
+      }
+    },
+    "Perfil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      }
+    },
+    "Perfiles de la casa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Household profiles"
+          }
+        }
+      }
+    },
+    "Perro": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dog"
+          }
+        }
+      }
+    },
+    "Pez": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fish"
+          }
+        }
+      }
+    },
+    "Pon un PIN para que los niños no puedan entrar en este perfil.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set a PIN so the kids can't open this profile."
+          }
+        }
+      }
+    },
+    "Poner un PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set a PIN"
+          }
+        }
+      }
+    },
+    "Pulsa para ver sus títulos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Press to see their titles."
+          }
+        }
+      }
+    },
+    "Pulsa reproducir para empezar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Press Play to start."
+          }
+        }
+      }
+    },
+    "Quitar de Fijados": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unpin"
+          }
+        }
+      }
+    },
+    "Quitar el PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove PIN"
+          }
+        }
+      }
+    },
+    "Reanudar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume"
+          }
+        }
+      }
+    },
+    "Reintentar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "Relacionado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Related"
+          }
+        }
+      }
+    },
+    "Reparto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cast"
+          }
+        }
+      }
+    },
+    "Repite el PIN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repeat the PIN"
+          }
+        }
+      }
+    },
+    "Reproducir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play"
+          }
+        }
+      }
+    },
+    "Robot": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robot"
+          }
+        }
+      }
+    },
+    "Robots": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robots"
+          }
+        }
+      }
+    },
+    "Rojo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Red"
+          }
+        }
+      }
+    },
+    "Seguir viendo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue watching"
+          }
+        }
+      }
+    },
+    "Series": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Series"
+          }
+        }
+      }
+    },
+    "Servidor": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server"
+          }
+        }
+      }
+    },
+    "Siguiente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Up next"
+          }
+        }
+      }
+    },
+    "Siguiente: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next: %@"
+          }
+        }
+      }
+    },
+    "Sin cifrar: la contraseña y la sesión se envían sin protección. Úsala solo en la red de casa o usa una dirección https://.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not encrypted: your password and session are sent unprotected. Use it only on your home network, or use an https:// address."
+          }
+        }
+      }
+    },
+    "Sin cifrar: la sesión se envía sin protección. Úsala solo en la red de casa o usa una dirección https://.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not encrypted: your session is sent unprotected. Use it only on your home network, or use an https:// address."
+          }
+        }
+      }
+    },
+    "Sin resultados para «%@».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No results for “%@”."
+          }
+        }
+      }
+    },
+    "Sin resultados.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No results."
+          }
+        }
+      }
+    },
+    "Sorpresa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surprise me"
+          }
+        }
+      }
+    },
+    "Tiene que quedar al menos un perfil adulto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "At least one profile has to stay an adult."
+          }
+        }
+      }
+    },
+    "Todavía no hay nada que ver.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing to watch yet."
+          }
+        }
+      }
+    },
+    "Todos los episodios": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All episodes"
+          }
+        }
+      }
+    },
+    "Tortuga": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turtle"
+          }
+        }
+      }
+    },
+    "Turquesa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teal"
+          }
+        }
+      }
+    },
+    "Título": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
+          }
+        }
+      }
+    },
+    "Un adulto con PIN puede aprobar dispositivos para este perfil.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A grown-up with a PIN can approve devices for this profile."
+          }
+        }
+      }
+    },
+    "Un dispositivo quiere entrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A device wants to sign in"
+          }
+        }
+      }
+    },
+    "Un episodio al azar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A random episode"
+          }
+        }
+      }
+    },
+    "Un iPad quiere entrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An iPad wants to sign in"
+          }
+        }
+      }
+    },
+    "Un iPhone quiere entrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An iPhone wants to sign in"
+          }
+        }
+      }
+    },
+    "Usuario": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "User name"
+          }
+        }
+      }
+    },
+    "Usuario o contraseña incorrectos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrong user name or password."
+          }
+        }
+      }
+    },
+    "Ver serie": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View series"
+          }
+        }
+      }
+    },
+    "Verde": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Green"
+          }
+        }
+      }
+    },
+    "Visto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Watched"
+          }
+        }
+      }
+    },
+    "Volver": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back"
+          }
+        }
+      }
+    },
+    "Vídeos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videos"
+          }
+        }
+      }
+    },
+    "iPad": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPad"
+          }
+        }
+      }
+    },
+    "iPhone": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone"
+          }
+        }
+      }
+    },
+    "¿Cerrar la sesión de %@?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign out %@?"
+          }
+        }
+      }
+    },
+    "¿Quién está viendo?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Who's watching?"
+          }
+        }
+      }
+    },
+    "%@ ha entrado como %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ signed in as %@"
+          }
+        }
+      }
+    },
+    "Quitar de todos los dispositivos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from all devices"
+          }
+        }
+      }
+    },
+    "¿Quitar a %@ de todos los dispositivos?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove %@ from all devices?"
+          }
+        }
+      }
+    },
+    "Entrar con un código": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in with a code"
+          }
+        }
+      }
+    },
+    "Tu código": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your code"
+          }
+        }
+      }
+    },
+    "Apruébalo en otro dispositivo con Matiné o en la web de Jellyfin.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approve it on another device with Matiné or in the Jellyfin web app."
+          }
+        }
+      }
+    },
+    "El código ha caducado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The code has expired."
+          }
+        }
+      }
+    },
+    "Pedir otro código": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get another code"
+          }
+        }
+      }
+    },
+    "Ese código lo aprobó otro usuario. Pide otro y apruébalo con el perfil correcto.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Another user approved that code. Get another one and approve it with the right profile."
+          }
+        }
+      }
+    },
+    "Esa cuenta no es la de este perfil.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That account is not this profile's."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

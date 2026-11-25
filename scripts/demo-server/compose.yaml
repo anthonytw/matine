@@ -1,0 +1,38 @@
+# The demo stack inside the matine-demo VM (demo-server.sh stack). Jellyfin is reachable only through Caddy.
+name: matine-demo
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:12.4@sha256:fea863d0cd9ec445985d9c75fc6ed64e38a1d2766cf0c250a33d553f4fc1b771
+    restart: unless-stopped
+    environment:
+      TZ: America/New_York
+    volumes:
+      - jf-config:/config
+      - jf-cache:/cache
+      - /media-src:/media:ro   # the generated placeholder media; read-only, so nothing is ever saved into it
+  caddy:
+    image: caddy:2.11-alpine@sha256:003a97808e781aa9f7e75cc2f43d34d461099031faf5e20faefb9f61126836f0
+    restart: unless-stopped
+    depends_on: [jellyfin]
+    ports:
+      - "8920:8920"
+    volumes:
+      - caddy-data:/data
+    configs:
+      - source: caddyfile
+        target: /etc/caddy/Caddyfile
+configs:
+  caddyfile:
+    content: |
+      {
+        auto_https disable_redirects
+        skip_install_trust
+      }
+      https://localhost:8920, https://127.0.0.1:8920 {
+        tls internal
+        reverse_proxy jellyfin:8096
+      }
+volumes:
+  jf-config:
+  jf-cache:
+  caddy-data:

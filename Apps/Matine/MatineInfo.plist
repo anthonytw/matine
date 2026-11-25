@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- The household sync is woken by iCloud pushes (approvals from other devices). -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>MatineKeychainGroup</key>
+	<string>$(AppIdentifierPrefix)io.github.anthonytw.matine.shared</string>
+	<!-- Phones signing in with a code announce it on the home network; the TV listens for them. -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Matiné busca iPhones y iPads de tu casa que quieren entrar, para que los apruebes desde aquí.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_matine-join._tcp</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>io.github.anthonytw.matine</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>matine</string>
+			</array>
+		</dict>
+	</array>
+	<!-- The server is whatever address its owner types: most home servers are plain http (the sign-in screens
+	     warn). Matiné never talks to any other server, so arbitrary loads only ever reach that one. Known
+	     residual: AVPlayer follows a redirect the server itself sends, even https to http; only the server can cause it. -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

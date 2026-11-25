@@ -1,0 +1,5 @@
+{"Items":[
+ {"Id":"lib-movies","Name":"Películas","Type":"CollectionFolder","CollectionType":"movies"},
+ {"Id":"lib-music","Name":"Música","Type":"CollectionFolder","CollectionType":"music"},
+ {"Id":"lib-shows","Name":"Series","Type":"CollectionFolder","CollectionType":"tvshows"}
+],"TotalRecordCount":3,"StartIndex":0}

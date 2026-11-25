@@ -1,0 +1,70 @@
+DEFINE SCHEMA
+
+    RECORD TYPE ApprovalRequest (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE,
+        cod             ENCRYPTED STRING,
+        cre             ENCRYPTED INT64,
+        dev             ENCRYPTED STRING,
+        srv             ENCRYPTED STRING,
+        uid             ENCRYPTED STRING,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE HouseholdMember (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE,
+        avt             ENCRYPTED STRING,
+        dsp             ENCRYPTED STRING,
+        lng             ENCRYPTED STRING,
+        mod             ENCRYPTED INT64,
+        nam             ENCRYPTED STRING,
+        pin             ENCRYPTED STRING,
+        rem             ENCRYPTED INT64,
+        rol             ENCRYPTED STRING,
+        srv             ENCRYPTED STRING,
+        uid             ENCRYPTED STRING,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE ItemKeywords (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE,
+        g               ENCRYPTED STRING,
+        h               ENCRYPTED STRING,
+        r               ENCRYPTED STRING,
+        t               ENCRYPTED INT64,
+        w               ENCRYPTED STRING,
+        GRANT WRITE TO "_creator",
+        GRANT CREATE TO "_icloud",
+        GRANT READ TO "_world"
+    );
+
+    RECORD TYPE Users (
+        "___createTime" TIMESTAMP,
+        "___createdBy"  REFERENCE,
+        "___etag"       STRING,
+        "___modTime"    TIMESTAMP,
+        "___modifiedBy" REFERENCE,
+        "___recordID"   REFERENCE,
+        roles           LIST<INT64>,
+        GRANT WRITE TO "_creator",
+        GRANT READ TO "_world"
+    );
+

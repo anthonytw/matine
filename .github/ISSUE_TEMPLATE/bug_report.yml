@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in Matiné does not work as it should
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not paste tokens, passwords, PINs, server addresses or the names of what is in your library.
+        Security problems: use the private "Report a vulnerability" form on the Security tab instead.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options: [Apple TV, iPhone, iPad, matine CLI]
+    validations: {required: true}
+  - type: input
+    id: version
+    attributes:
+      label: Matiné version
+    validations: {required: true}
+  - type: input
+    id: os
+    attributes:
+      label: Device and OS version
+      placeholder: Apple TV 4K (3rd generation), tvOS 27.0
+    validations: {required: true}
+  - type: input
+    id: jellyfin
+    attributes:
+      label: Jellyfin server version
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: What you did, what you expected, what happened.
+    validations: {required: true}
