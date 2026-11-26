@@ -10,7 +10,10 @@
     uv run scripts/asc.py profile         make/refresh the tvOS and iOS App Store provisioning profiles and install them
     uv run scripts/asc.py add-ios         add the iOS platform (an iOS appStoreVersion) to the app record
     uv run scripts/asc.py listing [--apply]   compare (or write) the store listing with docs/appstore/listing.json:
-                                          name, subtitle, description, keywords, URLs, categories, version, review notes
+                                          name, subtitle, description, keywords, URLs, categories, version, copyright, review notes
+    uv run scripts/asc.py screenshots [DIR] [--apply]   list (or replace) the store screenshots from DIR
+                                          (default build/screenshots: <lang>/{tv,iphone,ipad}/NN-name.png, from
+                                          scripts/screenshots.sh), per platform, language and display size
 
 Reads the key from MATINE_ASC_ENV (default ~/.config/matine/release.env:
 ASC_KEY_PATH, ASC_KEY_ID, ASC_ISSUER_ID; ASC_BETA_GROUP names the internal
@@ -18,7 +21,7 @@ TestFlight group, default "Internal").
 Never prints key material. The app record itself can't be created through the
 API: that one step is the web UI (README "TestFlight").
 """
-import json, os, re, sys, time
+import hashlib, json, os, re, sys, time
 from pathlib import Path
 import jwt, requests
 
@@ -249,7 +252,8 @@ def listing(asc):
         if at["platform"] not in PLATFORMS or at["appStoreState"] not in ("PREPARE_FOR_SUBMISSION", "DEVELOPER_REJECTED", "REJECTED", "METADATA_REJECTED"):
             continue
         p = at["platform"]
-        sync(f"{p} version", "/v1/appStoreVersions", "appStoreVersions", v["id"], at, {"versionString": want["versionString"]})
+        sync(f"{p} version", "/v1/appStoreVersions", "appStoreVersions", v["id"], at,
+             {"versionString": want["versionString"], "copyright": want["copyright"]})
         have_loc = {l["attributes"]["locale"]: l for l in asc.get(f"/v1/appStoreVersions/{v['id']}/appStoreVersionLocalizations")["data"]}
         for locale, text in want["locales"].items():
             cur = have_loc.get(locale)
@@ -260,12 +264,101 @@ def listing(asc):
                  {"appStoreVersion": {"data": {"type": "appStoreVersions", "id": v["id"]}}})
         review = asc.s.get(API + f"/v1/appStoreVersions/{v['id']}/appStoreReviewDetail", timeout=30)
         cur = review.json().get("data") if review.status_code == 200 else None
+        # Apple refuses review notes without the review contact (name, email, phone): a web-UI step.
+        if not (cur and cur["attributes"].get("contactEmail")):
+            print(f"! {p} review notes: skipped until the App Review contact is filled in (App Store Connect, App Review Information)")
+            changes += 1
+            continue
         sync(f"{p} review notes", "/v1/appStoreReviewDetails", "appStoreReviewDetails", cur and cur["id"],
              cur and cur["attributes"], want["review"],
              {"appStoreVersion": {"data": {"type": "appStoreVersions", "id": v["id"]}}})
     print(f"{changes} difference(s)" + ("" if apply or not changes else "; run with --apply to write them"))
 
+# Screenshot sets: which display type each folder fills; the first type Apple accepts wins. The 6.9" iPhone
+# shots (1320 x 2868) go in APP_IPHONE_67: the API refused APP_IPHONE_69 (409, 2026-11-25).
+SHOT_SETS = {"TV_OS": [("tv", ["APP_APPLE_TV"])],
+             "IOS": [("iphone", ["APP_IPHONE_67", "APP_IPHONE_69"]), ("ipad", ["APP_IPAD_PRO_3GEN_129"])]}
+
+def screenshots(asc):
+    """Replace each version's screenshots with the PNGs scripts/screenshots.sh made. Without --apply,
+    only says what would be uploaded. A set is emptied and refilled in file order, so a rerun is safe."""
+    apply = "--apply" in sys.argv
+    args = [x for x in sys.argv[2:] if not x.startswith("--")]
+    root = Path(args[0] if args else Path(__file__).resolve().parent.parent / "build/screenshots")
+    a = asc.app()
+    if not a: sys.exit("no app record yet")
+    failed = False
+    for v in asc.versions(a["id"]):
+        at = v["attributes"]
+        if at["platform"] not in SHOT_SETS or at["appStoreState"] not in ("PREPARE_FOR_SUBMISSION", "DEVELOPER_REJECTED", "REJECTED", "METADATA_REJECTED"):
+            continue
+        p = at["platform"]
+        locs = {l["attributes"]["locale"]: l["id"] for l in asc.get(f"/v1/appStoreVersions/{v['id']}/appStoreVersionLocalizations")["data"]}
+        for locale, loc_id in sorted(locs.items()):
+            have = {x["attributes"]["screenshotDisplayType"]: x for x in asc.get(f"/v1/appStoreVersionLocalizations/{loc_id}/appScreenshotSets")["data"]}
+            for folder, types in SHOT_SETS[p]:
+                files = sorted((root / locale / folder).glob("*.png"))
+                if not files:
+                    print(f"! {p} {locale} {folder}: no PNGs in {root / locale / folder}"); continue
+                current = next((have[t] for t in types if t in have), None)
+                print(f"~ {p} {locale} {folder}: {len(files)} shot(s) -> {current['attributes']['screenshotDisplayType'] if current else types[0]}"
+                      + ("" if apply else " (dry run)"))
+                if not apply: continue
+                # A fresh token per set: the JWT lasts 15 minutes and each set may wait 5 for processing.
+                asc.s.headers["Authorization"] = "Bearer " + token(env())
+                if current is None:
+                    for t in types:
+                        r = asc.s.post(API + "/v1/appScreenshotSets", json={"data": {"type": "appScreenshotSets",
+                            "attributes": {"screenshotDisplayType": t},
+                            "relationships": {"appStoreVersionLocalization": {"data": {"type": "appStoreVersionLocalizations", "id": loc_id}}}}}, timeout=30)
+                        if r.status_code < 400: current = r.json()["data"]; break
+                        print(f"  {t} refused ({r.status_code}), trying the next type")
+                    if current is None: sys.exit(f"{p} {locale} {folder}: Apple took none of {types}")
+                set_id = current["id"]
+                old = asc.get(f"/v1/appScreenshotSets/{set_id}/appScreenshots")["data"]
+                def drop(shots):
+                    for x in shots:
+                        r = asc.s.delete(API + f"/v1/appScreenshots/{x['id']}", timeout=30)
+                        if r.status_code >= 400: sys.exit(f"delete {x['id']}: HTTP {r.status_code}")
+                # Old shots go after the new ones are in, so a failed run never leaves the set empty;
+                # a set holds 10 at most, so when both don't fit the old ones go first.
+                late = len(old) + len(files) <= 10
+                if not late: drop(old)
+                new_ids = []
+                for f in files:
+                    data = f.read_bytes()
+                    shot = asc.post("/v1/appScreenshots", {"data": {"type": "appScreenshots",
+                        "attributes": {"fileName": f.name, "fileSize": len(data)},
+                        "relationships": {"appScreenshotSet": {"data": {"type": "appScreenshotSets", "id": set_id}}}}})["data"]
+                    for op in shot["attributes"]["uploadOperations"]:
+                        part = data[op["offset"]:op["offset"] + op["length"]]
+                        headers = {h["name"]: h["value"] for h in op.get("requestHeaders", [])}
+                        r = requests.request(op["method"], op["url"], data=part, headers=headers, timeout=120)
+                        if r.status_code >= 400: sys.exit(f"{f.name}: upload part HTTP {r.status_code}")
+                    asc.patch(f"/v1/appScreenshots/{shot['id']}", {"data": {"type": "appScreenshots", "id": shot["id"],
+                        "attributes": {"uploaded": True, "sourceFileChecksum": hashlib.md5(data).hexdigest()}}})
+                    new_ids.append(shot["id"])
+                    print(f"  uploaded {f.name}")
+                if late: drop(old)
+                # Display order is file order, said outright rather than left to creation order.
+                r = asc.s.patch(API + f"/v1/appScreenshotSets/{set_id}/relationships/appScreenshots",
+                                json={"data": [{"type": "appScreenshots", "id": i} for i in new_ids]}, timeout=30)
+                if r.status_code >= 400: sys.exit(f"{p} {locale} {folder}: ordering HTTP {r.status_code}")
+                # Apple processes the images after the commit: wait, so a refusal (wrong size) is seen here.
+                for _ in range(60):
+                    states = [x["attributes"]["assetDeliveryState"]["state"] for x in asc.get(f"/v1/appScreenshotSets/{set_id}/appScreenshots")["data"]]
+                    if all(st in ("COMPLETE", "FAILED") for st in states): break
+                    time.sleep(5)
+                bad = [x for x in asc.get(f"/v1/appScreenshotSets/{set_id}/appScreenshots")["data"]
+                       if x["attributes"]["assetDeliveryState"]["state"] != "COMPLETE"]
+                for x in bad:
+                    errs = x["attributes"]["assetDeliveryState"].get("errors") or []
+                    print(f"  ! {x['attributes']['fileName']}: {x['attributes']['assetDeliveryState']['state']} {'; '.join(e.get('description', '') for e in errs)}")
+                if not bad: print(f"  = {len(files)} processed")
+                failed = failed or bool(bad)
+    if failed: sys.exit("some screenshots were refused or still processing; see the ! lines")
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
     asc = ASC()
-    {"status": status, "bundle-id": bundle_id, "group": group, "builds": builds, "profile": profile, "add-ios": add_ios, "listing": listing}.get(cmd, lambda _: sys.exit(__doc__))(asc)
+    {"status": status, "bundle-id": bundle_id, "group": group, "builds": builds, "profile": profile, "add-ios": add_ios, "listing": listing, "screenshots": screenshots}.get(cmd, lambda _: sys.exit(__doc__))(asc)

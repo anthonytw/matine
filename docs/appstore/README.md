@@ -29,4 +29,4 @@ goes away, update the notes before submitting.
 5. **App Review contact:** name, phone and email.
 6. **Copyright** on each platform's version, e.g. `2026 <owner's name>`.
 7. **Build:** pick the build on each platform (tvOS and iOS share the build number).
-8. **Screenshots:** the sets from `scripts/screenshots.sh`.
+8. **Screenshots:** made by `scripts/screenshots.sh`, uploaded by `uv run scripts/asc.py screenshots [DIR] --apply` (replaces the sets of each editable version that DIR has PNGs for; done for 1.0.0 on 2026-11-25).
